@@ -1,4 +1,4 @@
-package sdkdemo.kx.come.mvpdemo.views;
+package sdkdemo.kx.come.mvpdemo.views.activity;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -8,6 +8,7 @@ import com.corelibs.utils.PreferencesHelper;
 
 import sdkdemo.kx.come.mvpdemo.R;
 import sdkdemo.kx.come.mvpdemo.presenter.LoginPresenter;
+import sdkdemo.kx.come.mvpdemo.views.LoginView;
 
 public class LoginActivity extends BaseActivity<LoginView,LoginPresenter> implements LoginView {
 

@@ -11,6 +11,7 @@ import com.corelibs.subscriber.ResponseSubscriber;
 
 import sdkdemo.kx.come.mvpdemo.model.LoginApi;
 import sdkdemo.kx.come.mvpdemo.model.bean.BaseData;
+import sdkdemo.kx.come.mvpdemo.model.bean.req.RequestBean;
 import sdkdemo.kx.come.mvpdemo.views.LoginView;
 
 /**
@@ -39,10 +40,11 @@ public class LoginPresenter extends BasePresenter<LoginView> {
     public void getServerVersion() {
 //        api.getServerVersion()
 //                .compose(new ResponseTransformer<>(this.<BaseData<String>>bindToLifeCycle()))
-//                .subscribe(new ResponseSubscriber<BaseData<String>>() {
+//                .subscribe(new ResponseSubscriber<BaseData<RequestBean>>() {
 //
 //                    @Override
-//                    public void success(BaseData<String> data) {
+//                    public void success(BaseData<RequestBean> data) {
+//                        RequestBean bean=data.data;
 //
 //                    }
 //

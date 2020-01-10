@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@mipmap/ic_logo"
+        android:icon="@mipmap/ic_menu_white"
         android:title="首页" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@mipmap/ic_logo"
+        android:icon="@mipmap/ic_menu_white"
         android:title="分类" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@mipmap/ic_logo"
+        android:icon="@mipmap/ic_menu_white"
         android:title="我的" />
 
 </menu>

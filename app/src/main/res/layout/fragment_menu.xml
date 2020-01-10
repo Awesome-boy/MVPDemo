@@ -13,6 +13,5 @@
         android:layout_gravity="start"
         android:background="@android:color/transparent"
         app:headerLayout="@layout/view_global_menu_header"
-
         app:menu="@menu/drawer_menu"/>
 </RelativeLayout>
